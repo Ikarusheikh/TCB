@@ -54,7 +54,9 @@
   }
 
   var navHTML = '<nav class="nav">'
+    + '<div class="nav-left">'
     + '<a href="index.html" class="nav-logo">TCB Legal</a>'
+    + '</div>'
     + '<ul class="nav-links">'
     + link('home.html',    'nav.home')
     + link('about.html',   'nav.firm')

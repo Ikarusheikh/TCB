@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,12 +8,14 @@
   <title>TCB Legal</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body class="is-entry">
 
   <div class="entry-bg" aria-hidden="true"></div>
 
   <header style="position:relative;z-index:1;display:flex;justify-content:space-between;align-items:center;">
-    <span style="font-family:'Cormorant Garamond',serif;font-size:0.75rem;font-weight:300;letter-spacing:0.22em;text-transform:uppercase;color:rgba(247,245,241,0.2);">tcb.legal</span>
+    <span
+      style="font-family:'Cormorant Garamond',serif;font-size:0.75rem;font-weight:300;letter-spacing:0.22em;text-transform:uppercase;color:rgba(247,245,241,0.2);">tcb.legal</span>
     <div class="entry-lang">
       <button class="lang-btn active" data-lang="en" onclick="TCB.setLang('en')">EN</button>
       <span class="lang-dot">&middot;</span>
@@ -21,7 +24,7 @@
   </header>
 
   <main class="entry-main">
-    <h1 class="entry-wordmark">TCB<br>Legal</h1>
+    <h1 class="entry-wordmark">TCB Legal</h1>
     <div class="entry-tagline">
       <span data-i18n="entry.tag1">Strategic legal structures</span>
       <span data-i18n="entry.tag2">Beyond conventional frameworks</span>
@@ -43,17 +46,18 @@
   <script>
     /* minimal bootstrap for entry page */
     window.TCB = window.TCB || {};
-    (function(){
+    (function () {
       var lang = localStorage.getItem('tcb-lang') || 'en';
-      function t(k){ var d=window.TCB_LANG&&window.TCB_LANG[lang]; return(d&&d[k]!==undefined)?d[k]:k; }
-      function apply(){
-        document.querySelectorAll('[data-i18n]').forEach(function(el){ el.innerHTML=t(el.dataset.i18n); });
+      function t(k) { var d = window.TCB_LANG && window.TCB_LANG[lang]; return (d && d[k] !== undefined) ? d[k] : k; }
+      function apply() {
+        document.querySelectorAll('[data-i18n]').forEach(function (el) { el.innerHTML = t(el.dataset.i18n); });
         document.documentElement.lang = lang;
-        document.querySelectorAll('.lang-btn').forEach(function(b){ b.classList.toggle('active',b.dataset.lang===lang); });
+        document.querySelectorAll('.lang-btn').forEach(function (b) { b.classList.toggle('active', b.dataset.lang === lang); });
       }
-      window.TCB.setLang = function(l){ lang=l; localStorage.setItem('tcb-lang',l); apply(); };
+      window.TCB.setLang = function (l) { lang = l; localStorage.setItem('tcb-lang', l); apply(); };
       apply();
     })();
   </script>
 </body>
+
 </html>

@@ -10,7 +10,7 @@ window.TCB_LANG = {
     'nav.firm':           'The Firm',
     'nav.areas':          'Areas',
     'nav.contact':        'Contact',
-    'footer.rights':      '&copy; 2025 TCB Legal. All rights reserved.',
+    'footer.rights':      '&copy; ' + new Date().getFullYear() + ' TCB Legal. All rights reserved.',
     'footer.legal':       'Legal Notice',
 
     /* entry */
@@ -23,18 +23,19 @@ window.TCB_LANG = {
     'home.eyebrow':       'Our Approach',
     'home.title':         'Strategic<br>Legal Advisory',
     'home.cap1':          'Structure &amp; Form',
+    'home.offices':       'Legal Offices<br>Tunis &mdash; Tunisia',
     'home.phil':          'Philosophy',
     'home.phil.p1':       'TCB Legal operates as a strategic legal advisory collective.',
     'home.phil.p2':       'Our work is not limited to the execution of legal tasks. We design, coordinate, and supervise legal and para-legal structures aligned with long-term strategic objectives.',
     'home.eng.label':     'Engagement Model',
     'home.eng.text':      'Senior-led. Bespoke. Discreet.',
-    'home.principles':    'Core Principles',
+    'home.principles':    'Fundamental Principles',
     'home.p1.title':      'Critical Analysis',
-    'home.p1.text':       'We delve deeply into every matter, examining all angles to develop informed and robust strategies.',
+    'home.p1.text':       'We examine each case in depth, from all angles, to develop informed and robust strategies.',
     'home.p2.title':      'Tailored Solutions',
-    'home.p2.text':       'Our solutions are crafted specifically for each client, balancing legal precision with the realities of their business and geopolitical contexts.',
-    'home.p3.title':      'Forward Thinking',
-    'home.p3.text':       'We anticipate challenges and opportunities, ensuring our clients are prepared for both immediate and long-term objectives.',
+    'home.p2.text':       'Our solutions are designed specifically for each client, reconciling legal precision with the realities of their commercial and geopolitical environment.',
+    'home.p3.title':      'Forward Vision',
+    'home.p3.text':       'We anticipate challenges and opportunities, ensuring our clients are optimally prepared for both immediate and long-term issues.',
     'home.cap2':          'Network &amp; Reach',
     'home.network':       'Network Model',
     'home.net.p1':        'TCB Legal operates through a distributed network of senior professionals.',
@@ -43,8 +44,8 @@ window.TCB_LANG = {
     'home.s1.val':        'Tunis',
     'home.s2.label':      'Reach',
     'home.s2.val':        'Multi-jurisdictional',
-    'home.s3.label':      'Structure',
-    'home.s3.val':        'Distributed',
+    'home.s3.label':      '—',
+    'home.s3.val':        'Legal Offices',
     'home.s4.label':      'Engagement',
     'home.s4.val':        'Senior-led',
 
@@ -54,9 +55,9 @@ window.TCB_LANG = {
     'about.section':      'About TCB Legal',
     'about.aside.title':  'Independent.<br>Tunis-based.',
     'about.aside.note':   'Founded with a clear objective<br>to provide high-level legal<br>representation with an<br>international outlook.',
-    'about.p1':           '<strong>TCB Legal is an independent law firm based in Tunis.</strong> TCB Legal was founded with a clear objective: to provide high-level legal representation combining local expertise with an international outlook.',
-    'about.p2':           'We advise private clients, business leaders, and companies operating in Tunisia and across borders. Through established professional partnerships in selected jurisdictions, the firm is able to assist clients involved in multi-jurisdictional matters requiring coordinated legal support.',
-    'about.p3':           'Our structure allows us to remain agile, discreet, and personally involved in every engagement.',
+    'about.p1':           '<strong>TCB Legal is an independent law firm based in Tunis.</strong> TCB Legal was founded with a clear objective: to offer high-level legal representation combining local expertise and an international vision.',
+    'about.p2':           'We advise private clients, business leaders, and companies operating in Tunisia and internationally. Through established professional partnerships in selected jurisdictions, the firm is able to assist clients involved in multi-jurisdictional matters requiring coordinated legal support across the MENA region, North Africa, and the Maghreb.',
+    'about.p3':           'Our structure allows us to remain agile, discreet, and personally involved in every mission, while accompanying clients on both domestic and cross-border matters throughout the region.',
 
     /* areas */
     'areas.eyebrow':      'Areas of Practice',
@@ -121,7 +122,7 @@ window.TCB_LANG = {
     'legal.ip.label':     'Intellectual Property',
     'legal.ip.text':      'All content is protected by applicable intellectual property laws. Reproduction of any part of this website without prior written authorisation from TCB Legal is strictly prohibited.',
     'legal.di.label':     'Design &amp; Implementation',
-    'legal.di.text':      'Designed and implemented by Kamran Z Sheikh and Med Dhiaa Jaziri.',
+    'legal.di.text':      'Designed and implemented by Zia Sheikh and Dhiaa Jaziri.',
   },
 
   /* ── FRENCH ──────────────────────────── */
@@ -131,7 +132,7 @@ window.TCB_LANG = {
     'nav.firm':           'Le Cabinet',
     'nav.areas':          'Domaines',
     'nav.contact':        'Contact',
-    'footer.rights':      '&copy; 2025 TCB Legal. Tous droits r&eacute;serv&eacute;s.',
+    'footer.rights':      '&copy; ' + new Date().getFullYear() + ' TCB Legal. Tous droits r&eacute;serv&eacute;s.',
     'footer.legal':       'Mentions L&eacute;gales',
 
     /* entry */
@@ -144,6 +145,7 @@ window.TCB_LANG = {
     'home.eyebrow':       'Notre Approche',
     'home.title':         'Conseil Juridique<br>Strat&eacute;gique',
     'home.cap1':          'Structure &amp; Forme',
+    'home.offices':       'Cabinets Juridiques<br>Tunis &mdash; Tunisie',
     'home.phil':          'Philosophie',
     'home.phil.p1':       'TCB Legal op&egrave;re en tant que collectif de conseil juridique strat&eacute;gique.',
     'home.phil.p2':       'Notre travail ne se limite pas &agrave; l&rsquo;ex&eacute;cution de t&acirc;ches juridiques. Nous concevons, coordonnons et supervisons des structures juridiques et para-juridiques align&eacute;es sur des objectifs strat&eacute;giques &agrave; long terme.',
@@ -164,8 +166,8 @@ window.TCB_LANG = {
     'home.s1.val':        'Tunis',
     'home.s2.label':      'Port&eacute;e',
     'home.s2.val':        'Multi-juridictionnel',
-    'home.s3.label':      'Structure',
-    'home.s3.val':        'Distribu&eacute;e',
+    'home.s3.label':      '—',
+    'home.s3.val':        'Cabinets Juridiques',
     'home.s4.label':      'Mission',
     'home.s4.val':        'Pilot&eacute;e seniors',
 
@@ -175,9 +177,9 @@ window.TCB_LANG = {
     'about.section':      '&Agrave; propos de TCB Legal',
     'about.aside.title':  'Ind&eacute;pendant.<br>Bas&eacute; &agrave; Tunis.',
     'about.aside.note':   'Fond&eacute; avec un objectif clair :<br>offrir une repr&eacute;sentation juridique<br>de haut niveau avec une<br>vision internationale.',
-    'about.p1':           '<strong>TCB Legal est un cabinet d&rsquo;avocats ind&eacute;pendant bas&eacute; &agrave; Tunis.</strong> TCB Legal a &eacute;t&eacute; fond&eacute; avec un objectif clair : offrir une repr&eacute;sentation juridique de haut niveau alliant expertise locale et vision internationale.',
-    'about.p2':           'Nous conseillons des clients priv&eacute;s, des chefs d&rsquo;entreprise et des soci&eacute;t&eacute;s op&eacute;rant en Tunisie et &agrave; l&rsquo;international. Gr&acirc;ce &agrave; des partenariats professionnels &eacute;tablis dans des juridictions s&eacute;lectionn&eacute;es, le cabinet est en mesure d&rsquo;accompagner des clients impliqu&eacute;s dans des affaires multi-juridictionnelles n&eacute;cessitant un soutien juridique coordonn&eacute;.',
-    'about.p3':           'Notre structure nous permet de rester agiles, discrets et personnellement impliqu&eacute;s dans chaque mission.',
+    'about.p1':           '<strong>TCB Legal est un cabinet d&rsquo;avocats ind&eacute;pendant bas&eacute; &agrave; Tunis.</strong> TCB Legal a &eacute;t&eacute; fond&eacute; avec un objectif clair&nbsp;: offrir une repr&eacute;sentation juridique de haut niveau alliant expertise locale et vision internationale.',
+    'about.p2':           'Nous conseillons des clients priv&eacute;s, des chefs d&rsquo;entreprise et des soci&eacute;t&eacute;s op&eacute;rant en Tunisie et &agrave; l&rsquo;international. Gr&acirc;ce &agrave; des partenariats professionnels &eacute;tablis dans des juridictions s&eacute;lectionn&eacute;es, le cabinet est en mesure d&rsquo;accompagner des clients impliqu&eacute;s dans des affaires multi-juridictionnelles n&eacute;cessitant un soutien juridique coordonn&eacute; &agrave; travers la r&eacute;gion MENA, l&rsquo;Afrique du Nord et le Maghreb.',
+    'about.p3':           'Notre structure nous permet de rester agiles, discrets et personnellement impliqu&eacute;s dans chaque mission, tout en accompagnant nos clients dans leurs dossiers nationaux et transfrontaliers &agrave; travers la r&eacute;gion.',
 
     /* areas */
     'areas.eyebrow':      'Domaines de Pratique',
@@ -242,7 +244,7 @@ window.TCB_LANG = {
     'legal.ip.label':     'Propri&eacute;t&eacute; Intellectuelle',
     'legal.ip.text':      'L&rsquo;ensemble du contenu est prot&eacute;g&eacute; par les lois applicables en mati&egrave;re de propri&eacute;t&eacute; intellectuelle. Toute reproduction sans autorisation &eacute;crite pr&eacute;alable de TCB Legal est strictement interdite.',
     'legal.di.label':     'Conception &amp; R&eacute;alisation',
-    'legal.di.text':      'Con&ccedil;u et r&eacute;alis&eacute; par Kamran Z Sheikh et Med Dhiaa Jaziri.',
+    'legal.di.text':      'Con&ccedil;u et r&eacute;alis&eacute; par Zia Sheikh et Dhiaa Jaziri.',
   }
 
 };

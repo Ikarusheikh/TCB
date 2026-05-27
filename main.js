@@ -50,7 +50,7 @@
   const form = document.querySelector('.contact-form');
   if (form) {
     form.addEventListener('submit', function (e) {
-      e.preventDefault();
+      // e.preventDefault();
       const success = document.querySelector('.form-success');
       if (success) {
         form.style.display = 'none';
