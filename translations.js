@@ -7,7 +7,7 @@ window.TCB_LANG = {
   en: {
     /* nav & footer */
     'nav.home':           'Home',
-    'nav.firm':           'The Firm',
+    'nav.firm':           'About',
     'nav.areas':          'Areas',
     'nav.contact':        'Contact',
     'footer.rights':      '&copy; ' + new Date().getFullYear() + ' TCB Legal. All rights reserved.',
@@ -129,7 +129,7 @@ window.TCB_LANG = {
   fr: {
     /* nav & footer */
     'nav.home':           'Accueil',
-    'nav.firm':           'Le Cabinet',
+    'nav.firm':           'À Propos',
     'nav.areas':          'Domaines',
     'nav.contact':        'Contact',
     'footer.rights':      '&copy; ' + new Date().getFullYear() + ' TCB Legal. Tous droits r&eacute;serv&eacute;s.',
