@@ -1,0 +1,18 @@
+# ----------------------------------------------------------------------
+# 1. FORCE HTTPS
+# ----------------------------------------------------------------------
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ----------------------------------------------------------------------
+# 2. BASIC SECURITY & OPTIMIZATION
+# ----------------------------------------------------------------------
+# Prevent users from browsing your server directories
+Options -Indexes
+
+# Block access to hidden system files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

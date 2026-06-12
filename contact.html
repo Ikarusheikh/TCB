@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact — TCB Legal</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div id="site-nav"></div>
   <div class="page">
@@ -22,7 +24,8 @@
         <aside class="contact-aside reveal">
           <div class="contact-info-block">
             <div class="contact-info-label" data-i18n="contact.addr.label">Address</div>
-            <div class="contact-info-value" data-i18n="contact.addr.val">05 Rue du Jeune Foyer<br>Menzah, Tunis 1004<br>Tunisia</div>
+            <div class="contact-info-value" data-i18n="contact.addr.val">05 Rue du Jeune Foyer<br>Menzah, Tunis
+              1004<br>Tunisia</div>
           </div>
           <div class="contact-info-block">
             <div class="contact-info-label" data-i18n="contact.email.label">Email</div>
@@ -32,16 +35,20 @@
             <div class="contact-info-label" data-i18n="contact.tel.label">Telephone</div>
             <div class="contact-info-value"><a href="tel:+21671232452">+216 71 232 452</a></div>
           </div>
-          <div class="contact-note" data-i18n="contact.note">All enquiries are treated with strict confidentiality. We endeavour to respond within two business days.</div>
+          <div class="contact-note" data-i18n="contact.note">All enquiries are treated with strict confidentiality. We
+            endeavour to respond within two business days.</div>
         </aside>
 
         <div class="reveal reveal-delay-1">
-          <form class="contact-form" action="mailto:contact@tcb.legal" method="POST" enctype="text/plain" novalidate>
+          <form class="contact-form" action="https://api.staticforms.dev/submit" method="POST">
+            <input type="hidden" name="apiKey" value="sf_107a904e30c8cd36b04ef9e5" />
+            <input type="hidden" name="subject" value="TCB Legal submission" />
+            <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off" />
             <div class="form-row">
               <div class="form-field">
                 <label for="fname" data-i18n="contact.f.name.l">Full Name</label>
-                <input type="text" id="fname" name="name" required autocomplete="name"
-                  data-i18n-ph="contact.f.name.ph" placeholder="Your name" />
+                <input type="text" id="fname" name="name" required autocomplete="name" data-i18n-ph="contact.f.name.ph"
+                  placeholder="Your name" />
               </div>
               <div class="form-field">
                 <label for="femail" data-i18n="contact.f.email.l">Email Address</label>
@@ -52,8 +59,8 @@
             <div class="form-row">
               <div class="form-field">
                 <label for="forg" data-i18n="contact.f.org.l">Organisation</label>
-                <input type="text" id="forg" name="company" autocomplete="organization"
-                  data-i18n-ph="contact.f.org.ph" placeholder="Company or institution (optional)" />
+                <input type="text" id="forg" name="company" autocomplete="organization" data-i18n-ph="contact.f.org.ph"
+                  placeholder="Company or institution (optional)" />
               </div>
               <div class="form-field">
                 <label for="area-select" data-i18n="contact.f.area.l">Area of Interest</label>
@@ -70,8 +77,8 @@
             </div>
             <div class="form-field">
               <label for="fmsg" data-i18n="contact.f.msg.l">Message</label>
-              <textarea id="fmsg" name="message" required
-                data-i18n-ph="contact.f.msg.ph" placeholder="Please describe your matter briefly."></textarea>
+              <textarea id="fmsg" name="message" required data-i18n-ph="contact.f.msg.ph"
+                placeholder="Please describe your matter briefly."></textarea>
             </div>
             <button type="submit" class="form-submit">
               <span data-i18n="contact.f.submit">Send Enquiry</span>
@@ -79,6 +86,9 @@
           </form>
           <div class="form-success" data-i18n="contact.success">
             Thank you. Your enquiry has been received &mdash; we will be in touch shortly.
+          </div>
+          <div class="form-fail" data-i18n="contact.fail">
+            Sorry, your enquiry could not be submitted. Please try again later.
           </div>
         </div>
 
@@ -91,4 +101,5 @@
   <script src="components.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>

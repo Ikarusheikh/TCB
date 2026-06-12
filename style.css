@@ -10,6 +10,7 @@
   --bg:           #F7F5F1;
   --bg-dark:      #0D0C0A;
   --bg-panel:     #EDEBE5;
+  --bg-error:     #ede1dc;
   --text:         #1A1917;
   --text-muted:   #5C5A54;
   --text-faint:   #8A8880;
@@ -864,6 +865,17 @@ body.is-entry {
   padding: 2rem;
   border: 1px solid var(--border);
   background: var(--bg-panel);
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-muted);
+}
+
+.form-fail {
+  display: none;
+  padding: 2rem;
+  border: 1px solid var(--border);
+  background: var(--bg-error);
   font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 300;

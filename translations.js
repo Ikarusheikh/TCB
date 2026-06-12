@@ -94,6 +94,7 @@ window.TCB_LANG = {
     'contact.f.msg.ph':   'Please describe your matter briefly.',
     'contact.f.submit':   'Send Enquiry',
     'contact.success':    'Thank you. Your enquiry has been received &mdash; we will be in touch shortly.',
+    'contact.fail':       'Sorry, your enquiry could not be submitted. Please try again later.',
     'contact.f.options': [
       'Intellectual Property &amp; Strategic Assets',
       'Renewable Energy &amp; Infrastructures',
@@ -216,6 +217,7 @@ window.TCB_LANG = {
     'contact.f.msg.ph':   'Veuillez d&eacute;crire bri&egrave;vement votre demande.',
     'contact.f.submit':   'Envoyer',
     'contact.success':    'Merci. Votre demande a bien &eacute;t&eacute; re&ccedil;ue &mdash; nous vous contacterons dans les meilleurs d&eacute;lais.',
+    'contact.fail':       'D&eacute;sol&eacute;, votre demande n\'a pas pu &ecirc;tre soumise. Veuillez r&eacute;essayer plus tard.',
     'contact.f.options': [
       'Propri&eacute;t&eacute; Intellectuelle &amp; Actifs Strat&eacute;giques',
       '&Eacute;nergies Renouvelables &amp; Infrastructures',
